@@ -1,0 +1,10 @@
+1 Bouton pour les suces ( le même bouton fait les deux) 
+2 bouton pour le “punch”
+2 bouton pour le “drop”
+2 bouton pour le compresseur ( on pourrait essayer de faire un circuit appart avec des bouton ( pour pas avoir toutes nos boutons juste sur les manettes )
+(J’ai checker vite vite puis la pompe semble être un capteur qui envoie son signal quand la pression est à 120-125 https://www.andymark.com/products/nason-pressure-switch) 
+sinon essayer de faire que la pelle reste en place ...
+Ca serait nice d’avoir des angles prédéfinis sur la pelle aussi ( quand la pelle approche de son angle, elle ralentit pour pas faire de chock)
+Quand tout ça est fini on va pouvoir checker pour faire des Séquences automatisé
+
+https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.andymark.com%2Fproducts%2Fnason-pressure-switch&h=AT1-j8pE9OwVDBg29DhTFH93w9KX_i_VJb2qhZwvMCdZ4Y5OsajaJ8nVhSgE75hxvi28W4mNqGAk5YDIS8nvoTo3aD6X781s7RnY-MZjVu75kvdt6kFu4fY5nAk5

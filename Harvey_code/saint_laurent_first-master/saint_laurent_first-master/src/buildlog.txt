@@ -1,0 +1,15 @@
+> Task :checkFrcUserProgramDebugExecutable UP-TO-DATE
+> Task :checkFrcUserProgramReleaseExecutable UP-TO-DATE
+> Task :check UP-TO-DATE
+> Task :generateVsCodeConfig
+> Task :compileFrcUserProgramDebugExecutableFrcUserProgramCpp
+> Task :compileFrcUserProgramReleaseExecutableFrcUserProgramCpp
+> Task :linkFrcUserProgramDebugExecutable
+> Task :frcUserProgramDebugExecutable
+> Task :linkFrcUserProgramReleaseExecutable
+> Task :frcUserProgramReleaseExecutable
+> Task :assemble
+> Task :build
+
+BUILD SUCCESSFUL in 2s
+5 actionable tasks: 5 executed
