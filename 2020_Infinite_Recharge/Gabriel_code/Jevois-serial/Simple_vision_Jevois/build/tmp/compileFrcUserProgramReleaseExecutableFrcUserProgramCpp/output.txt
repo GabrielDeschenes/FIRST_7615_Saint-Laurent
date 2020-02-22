@@ -1,0 +1,4 @@
+See file:///C:/Code%20Patbots%20robotics/test_simple_vision/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramReleaseExecutableFrcUserProgramCpp.
+compiling Robot.cpp successful.
+
+Finished compileFrcUserProgramReleaseExecutableFrcUserProgramCpp, see full log file:///C:/Code%20Patbots%20robotics/test_simple_vision/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt.
