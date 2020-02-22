@@ -1,0 +1,4 @@
+See file:///C:/Code%20Patbots%20robotics/Color-Sensor-v3-Examples-master/Color-Sensor-v3-Examples-master/Color_match_tour_motor/Color%20Match/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramReleaseExecutableFrcUserProgramCpp.
+compiling Robot_v3.cpp successful.
+
+Finished compileFrcUserProgramReleaseExecutableFrcUserProgramCpp, see full log file:///C:/Code%20Patbots%20robotics/Color-Sensor-v3-Examples-master/Color-Sensor-v3-Examples-master/Color_match_tour_motor/Color%20Match/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt.
