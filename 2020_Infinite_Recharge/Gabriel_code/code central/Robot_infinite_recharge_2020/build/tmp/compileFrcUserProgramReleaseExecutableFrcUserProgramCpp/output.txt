@@ -1,0 +1,79 @@
+See file:///C:/Code%20Patbots%20robotics/Robot_infinite_recharge_2020/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramReleaseExecutableFrcUserProgramCpp.
+compiling Robot.cpp failed.
+C:\Code Patbots robotics\Robot_infinite_recharge_2020\src\main\cpp\Robot.cpp:11:37: error: expected class-name before '{' token
+ class Robot : public frc::TimeRobot {
+                                     ^
+C:\Code Patbots robotics\Robot_infinite_recharge_2020\src\main\cpp\Robot.cpp:33:8: error: 'DifferentialDrive' in namespace 'frc' does not name a type
+   frc::DifferentialDrive m_robotDrive{m_leftMotor, m_rightMotor};
+        ^~~~~~~~~~~~~~~~~
+C:\Code Patbots robotics\Robot_infinite_recharge_2020\src\main\cpp\Robot.cpp:33:65: warning: extra ';' [-Wpedantic]
+   frc::DifferentialDrive m_robotDrive{m_leftMotor, m_rightMotor};
+                                                                 ^
+C:\Code Patbots robotics\Robot_infinite_recharge_2020\src\main\cpp\Robot.cpp:36:8: error: 'LiveWindow' in namespace 'frc' does not name a type
+   frc::LiveWindow& m_lw = *frc::LiveWindow::GetInstance();
+        ^~~~~~~~~~
+C:\Code Patbots robotics\Robot_infinite_recharge_2020\src\main\cpp\Robot.cpp:80:7: error: extra qualification 'Robot::' on member 'RobotInit' [-fpermissive]
+  void Robot::RobotInit() {
+       ^~~~~
+C:\Code Patbots robotics\Robot_infinite_recharge_2020\src\main\cpp\Robot.cpp:100:6: error: extra qualification 'Robot::' on member 'RobotPeriodic' [-fpermissive]
+ void Robot::RobotPeriodic() {}
+      ^~~~~
+C:\Code Patbots robotics\Robot_infinite_recharge_2020\src\main\cpp\Robot.cpp:115:8: error: 'void Robot::AutonomousInit()' marked 'override', but does not override
+   void AutonomousInit() override {
+        ^~~~~~~~~~~~~~
+C:\Code Patbots robotics\Robot_infinite_recharge_2020\src\main\cpp\Robot.cpp:120:8: error: 'void Robot::AutonomousPeriodic()' marked 'override', but does not override
+   void AutonomousPeriodic() override {
+        ^~~~~~~~~~~~~~~~~~
+C:\Code Patbots robotics\Robot_infinite_recharge_2020\src\main\cpp\Robot.cpp:131:8: error: 'void Robot::TeleopInit()' marked 'override', but does not override
+   void TeleopInit() override {}
+        ^~~~~~~~~~
+C:\Code Patbots robotics\Robot_infinite_recharge_2020\src\main\cpp\Robot.cpp:133:8: error: 'void Robot::TeleopPeriodic()' marked 'override', but does not override
+   void TeleopPeriodic() override {
+        ^~~~~~~~~~~~~~
+C:\Code Patbots robotics\Robot_infinite_recharge_2020\src\main\cpp\Robot.cpp:141:8: error: 'void Robot::TestPeriodic()' marked 'override', but does not override
+   void TestPeriodic() override {}
+        ^~~~~~~~~~~~
+C:\Code Patbots robotics\Robot_infinite_recharge_2020\src\main\cpp\Robot.cpp: In member function 'void Robot::RobotInit()':
+C:\Code Patbots robotics\Robot_infinite_recharge_2020\src\main\cpp\Robot.cpp:85:11: error: expected ';' before '{' token
+   Robot() {
+           ^
+C:\Code Patbots robotics\Robot_infinite_recharge_2020\src\main\cpp\Robot.cpp: In member function 'void Robot::AutonomousPeriodic()':
+C:\Code Patbots robotics\Robot_infinite_recharge_2020\src\main\cpp\Robot.cpp:124:7: error: 'm_robotDrive' was not declared in this scope
+       m_robotDrive.ArcadeDrive(-0.5, 0.0);
+       ^~~~~~~~~~~~
+C:\Code Patbots robotics\Robot_infinite_recharge_2020\src\main\cpp\Robot.cpp:127:7: error: 'm_robotDrive' was not declared in this scope
+       m_robotDrive.ArcadeDrive(0.0, 0.0);
+       ^~~~~~~~~~~~
+C:\Code Patbots robotics\Robot_infinite_recharge_2020\src\main\cpp\Robot.cpp: In member function 'void Robot::TeleopPeriodic()':
+C:\Code Patbots robotics\Robot_infinite_recharge_2020\src\main\cpp\Robot.cpp:137:5: error: 'm_robotDrive' was not declared in this scope
+     m_robotDrive.TankDrive(-m_stick.GetY(), m_stick.GetX());
+     ^~~~~~~~~~~~
+In file included from C:\Users\gdesc\.gradle\caches\transforms-2\files-2.1\77aec02c88b6cdbbe6ae1baa0d102dbc\wpilibc-cpp-2020.1.2-headers/frc/IterativeRobotBase.h:13:0,
+                 from C:\Users\gdesc\.gradle\caches\transforms-2\files-2.1\77aec02c88b6cdbbe6ae1baa0d102dbc\wpilibc-cpp-2020.1.2-headers/frc/TimedRobot.h:15,
+                 from C:\Code Patbots robotics\Robot_infinite_recharge_2020\src\main\cpp\BigRobot.h:16,
+                 from C:\Code Patbots robotics\Robot_infinite_recharge_2020\src\main\cpp\Robot.cpp:8:
+C:\Users\gdesc\.gradle\caches\transforms-2\files-2.1\77aec02c88b6cdbbe6ae1baa0d102dbc\wpilibc-cpp-2020.1.2-headers/frc/RobotBase.h: In instantiation of 'int frc::StartRobot() [with Robot = Robot]':
+C:\Code Patbots robotics\Robot_infinite_recharge_2020\src\main\cpp\Robot.cpp:147:44:   required from here
+C:\Users\gdesc\.gradle\caches\transforms-2\files-2.1\77aec02c88b6cdbbe6ae1baa0d102dbc\wpilibc-cpp-2020.1.2-headers/frc/RobotBase.h:79:23: error: 'class Robot' has no member named 'EndCompetition'
+     if (robot) robot->EndCompetition();
+                ~~~~~~~^~~~~~~~~~~~~~
+C:\Users\gdesc\.gradle\caches\transforms-2\files-2.1\77aec02c88b6cdbbe6ae1baa0d102dbc\wpilibc-cpp-2020.1.2-headers/frc/RobotBase.h: In instantiation of 'void frc::impl::RunRobot(wpi::mutex&, Robot**) [with Robot = Robot; wpi::mutex = wpi::priority_mutex]':
+C:\Users\gdesc\.gradle\caches\transforms-2\files-2.1\77aec02c88b6cdbbe6ae1baa0d102dbc\wpilibc-cpp-2020.1.2-headers/frc/RobotBase.h:55:30:   required from 'frc::StartRobot()::<lambda()> [with Robot = Robot]'
+C:\Users\gdesc\.gradle\caches\transforms-2\files-2.1\77aec02c88b6cdbbe6ae1baa0d102dbc\wpilibc-cpp-2020.1.2-headers/frc/RobotBase.h:53:22:   required from 'struct frc::StartRobot() [with Robot = Robot]::<lambda()>'
+C:\Users\gdesc\.gradle\caches\transforms-2\files-2.1\77aec02c88b6cdbbe6ae1baa0d102dbc\wpilibc-cpp-2020.1.2-headers/frc/RobotBase.h:53:17:   required from 'int frc::StartRobot() [with Robot = Robot]'
+C:\Code Patbots robotics\Robot_infinite_recharge_2020\src\main\cpp\Robot.cpp:147:44:   required from here
+C:\Users\gdesc\.gradle\caches\transforms-2\files-2.1\77aec02c88b6cdbbe6ae1baa0d102dbc\wpilibc-cpp-2020.1.2-headers/frc/RobotBase.h:35:12: error: 'class Robot' has no member named 'StartCompetition'
+   theRobot.StartCompetition();
+   ~~~~~~~~~^~~~~~~~~~~~~~~~
+In file included from C:\Users\gdesc\.gradle\caches\transforms-2\files-2.1\2aade005695a325322cde8f3ee86761b\wpiutil-cpp-2020.1.2-headers/wpi/condition_variable.h:10:0,
+                 from C:\Users\gdesc\.gradle\caches\transforms-2\files-2.1\77aec02c88b6cdbbe6ae1baa0d102dbc\wpilibc-cpp-2020.1.2-headers/frc/RobotBase.h:14,
+                 from C:\Users\gdesc\.gradle\caches\transforms-2\files-2.1\77aec02c88b6cdbbe6ae1baa0d102dbc\wpilibc-cpp-2020.1.2-headers/frc/IterativeRobotBase.h:13,
+                 from C:\Users\gdesc\.gradle\caches\transforms-2\files-2.1\77aec02c88b6cdbbe6ae1baa0d102dbc\wpilibc-cpp-2020.1.2-headers/frc/TimedRobot.h:15,
+                 from C:\Code Patbots robotics\Robot_infinite_recharge_2020\src\main\cpp\BigRobot.h:16,
+                 from C:\Code Patbots robotics\Robot_infinite_recharge_2020\src\main\cpp\Robot.cpp:8:
+c:\users\public\wpilib\2020\roborio\arm-frc2020-linux-gnueabi\usr\include\c++\7.3.0\condition_variable: At global scope:
+c:\users\public\wpilib\2020\roborio\arm-frc2020-linux-gnueabi\usr\include\c++\7.3.0\condition_variable:298:7: error: 'bool std::_V2::condition_variable_any::wait_for(_Lock&, const std::chrono::duration<_Rep, _Period>&, _Predicate) [with _Lock = std::unique_lock<wpi::priority_mutex>; _Rep = long long int; _Period = std::ratio<1>; _Predicate = frc::StartRobot() [with Robot = Robot]::<lambda()>]', declared using local type 'frc::StartRobot() [with Robot = Robot]::<lambda()>', is used but never defined [-fpermissive]
+       wait_for(_Lock& __lock,
+       ^~~~~~~~
+
+Finished compileFrcUserProgramReleaseExecutableFrcUserProgramCpp, see full log file:///C:/Code%20Patbots%20robotics/Robot_infinite_recharge_2020/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt.
